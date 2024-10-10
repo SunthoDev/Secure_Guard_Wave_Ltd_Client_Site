@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development Agency</title>
+    <link rel="stylesheet" href="sendmessage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- =============================================== -->
+
+<!-- =========================================== -->
+              <!-- Email Js Start-->
+<!-- =========================================== -->
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+    (function(){
+        emailjs.init("uRzYLnA9W0QhXMBz1"); // Replace YOUR_USER_ID with your EmailJS public key
+    })();
+</script>
+<!-- =========================================== -->
+              <!-- Email Js End-->
+<!-- =========================================== -->
+
+
+<script src="./scriptEmail.js"></script>
+
+
+<!-- =============================================== -->
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://www.secureguardwave.com/#"><img src="img/my.png" alt="Company Logo"></a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="nav-container">
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="client-reviews.html">Client Reviews</a></li>
+                    <li><a href="#products">Our Services</a></li>
+                    <li><a href="#contactsus2">Contact Us</a></li>
+                    <li><a href="#footer-map">Our Location</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>GET A FREE QUOTE</h1>
+        <p>Our Construction Teams Are On-Hand To Help Everyday!</p>
+    </div>
+
+    <!-- Products Section -->
+    <div class="contact-section">
+        <div class="office-info">
+            <h2>Our Office</h2>
+            <ul>
+                <li><i class="fa fa-map-marker"></i> 27 Shaptak Square, Level-7, Holding-02, Road-27, Dhanmondi, Dhaka,
+                    Bangladesh</li>
+                <a href="tel:+8801871059250" class="phone-link">
+                    <li><i class="fa fa-phone"></i> 01871059250</li>
+                </a>
+                <li><i class="fa fa-envelope"></i> hello@secureguardwave.com</li>
+                <li><i class="fa fa-clock"></i> Sun – Tue. 9.00 – 18.00</li>
+
+
+            </ul>
+            <div class="map-container">
+
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29213.968325904392!2d90.374941!3d23.756434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b92f4ee0202d%3A0x7480d2ba4746d2c2!2s27%20SHAPTAK%20SQUARE!5e0!3m2!1sen!2sus!4v1728021640860!5m2!1sen!2sus"
+                    width="350" height="200" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h1 style="text-align: center;">Talk To Us – We’re Here To Help</h1>
+            <p style="text-align: center;">Get in touch with us regarding your online branding or any other online
+                marketing service.</p>
+            <br><br>
+
+            <!-- =============================================== -->
+            <!-- Send Message From Start -->
+            <!-- =============================================== -->
+            <!-- <form action="send_email.php" method="POST" id="contactForm" onsubmit="sendEmail(event)"> -->
+            <form id="contactForm" onsubmit="sendEmail(event)">
+                <div class="form-group">
+                    <input id="yourName" type="text" name='from_name' placeholder="Full Name" required />
+                    <input id="businessName" type="text" name='from_businessName' placeholder="Business Name" />
+                </div>
+                <div class="form-group">
+                    <input id="email" type="email" name='from_email' placeholder="Email" required />
+                    <input id="phone" type="text" name='from_phone' placeholder="Phone" required />
+                </div>
+                <div class="form-group">
+                    <select id="services" name='from_services' required>
+                        <option value="">Select Service</option>
+                        <option value="eCommerce Website Development">eCommerce Website Development</option>
+                        <option value="Digital Marketing Strategy">Digital Marketing Strategy</option>
+                        <option value="Facebook Conversion API Setup">Facebook Conversion API Setup</option>
+                        <option value="Website Speed Optimization">Website Speed Optimization</option>
+                        <option value="Google Analytics 4 Server Side Tracking">Google Analytics 4 Server Side Tracking
+                        </option>
+                        <option value="Conversion Rate Optimization">Conversion Rate Optimization</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name='from_message' placeholder="Message"></textarea>
+                </div>
+                <!-- <input type="submit" value="GET FREE QUOTE"> -->
+                <button onclick="sendEmail()" type="submit">GET FREE QUOTE</button>
+            </form>
+
+            <!-- =============================================== -->
+            <!-- Send Message From End -->
+            <!-- =============================================== -->
+
+        </div>
+    </div>
+
+
+
+    <footer id="footer" class="footer">
+        <div class="footer-content">
+            <!-- Company Logo and Tagline -->
+            <div class="footer-logo">
+                <img src="img/my.png" alt="Company Logo">
+                <p class="tagline">You know your business— we know data. Let’s bring it together by combining passion,
+                    innovation, and results-driven strategies.</p>
+                <!-- Social Media Icons -->
+                <div class="social-media">
+                    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/yourchannel" target="_blank" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Important Links -->
+            <div class="important-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="#footer">About Us</a></li>
+                    <li><a href="#products">Our Services</a></li>
+                    <li><a href="#footer">Privacy Policy</a></li>
+                    <li><a href="#footer">Terms & Conditions</a></li>
+                    <li><a href="#contactsus2">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Get in Touch -->
+            <div class="get-in-touch">
+                <h3>Get in Touch</h3> <br>
+                <p><span class="address-icon"><i class="fas fa-map-marker-alt"></i></span> 27 Shaptak Square, Level-7,
+                    Holding-02, Road-27, Dhanmondi, Dhaka</p> <br>
+                <p><span class="map-icon"><i class="fas fa-map"></i></span> <a style="color: #5B2290;" class="linkcolor"
+                        href="https://www.google.com/maps?q=27+Shaptak+Square" target="_blank">View on Map</a></p> <br>
+                <p><span class="mail-icon"><i class="fas fa-envelope"></i></span> <a style="color: #5B2290;"
+                        class="linkcolor" href="mailto:hello@secureguardwave.com">hello@secureguardwave.com</a></p>
+            </div>
+            <!-- Embedded Map -->
+            <!-- Embedded Map -->
+            <div id="footer-map" class="footer-map">
+                <!-- Skeleton Loader for Map -->
+                <div class="map-skeleton">
+                    <!-- You can use a simple div with background or a loading animation -->
+                    <div class="skeleton-box"></div>
+                </div>
+
+                <!-- Actual Map (Initially hidden) -->
+                <iframe id="footer-map-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14606.984162952196!2d90.374941!3d23.756434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b92f4ee0202d%3A0x7480d2ba4746d2c2!2s27%20SHAPTAK%20SQUARE!5e0!3m2!1sen!2sus!4v1725871051786!5m2!1sen!2sus"
+                    style="border:0; display: none;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-copyright">
+            <p class="foop">&copy; <span id="current-year"></span> Secure Guard Wave Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+    <script>
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // const hamburger = document.querySelector('.hamburger');
+            // const navLinks = document.querySelector('.nav-links ul');
+            // const navContainer = document.querySelector('.nav-container');
+
+            // hamburger.addEventListener('click', function () {
+            //     navLinks.classList.toggle('active');
+            //     navContainer.classList.toggle('open'); // Add a class to indicate menu is open
+            // });
+
+            // document.addEventListener('click', function (event) {
+            //     if (!navContainer.contains(event.target) && !hamburger.contains(event.target)) {
+            //         navLinks.classList.remove('active');
+            //         navContainer.classList.remove('open'); // Remove class when clicking outside
+            //     }
+            // });
+
+
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links ul');
+            const navContainer = document.querySelector('.nav-container');
+            const barsIcon = hamburger.querySelector('.fa-bars');
+            const timesIcon = hamburger.querySelector('.fa-times');
+
+            // Initially hide the 'times' (cross) icon
+            timesIcon.style.display = 'none';
+
+            hamburger.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+                navContainer.classList.toggle('open'); // Toggle 'open' class
+
+                // Toggle icons based on 'open' class
+                if (navContainer.classList.contains('open')) {
+                    barsIcon.style.display = 'none'; // Hide bars icon
+                    timesIcon.style.display = 'block'; // Show cross icon
+                } else {
+                    barsIcon.style.display = 'block'; // Show bars icon
+                    timesIcon.style.display = 'none'; // Hide cross icon
+                }
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!navContainer.contains(event.target) && !hamburger.contains(event.target)) {
+                    navLinks.classList.remove('active');
+                    navContainer.classList.remove('open'); // Remove 'open' class when clicking outside
+
+                    // Reset to show bars icon when menu is closed
+                    barsIcon.style.display = 'block'; // Show bars icon
+                    timesIcon.style.display = 'none'; // Hide cross icon
+                }
+            });
+
+
+
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Intersection Observer for the map
+            let footerMapSection = document.querySelector('.footer-map');
+            let mapIframe = document.getElementById('footer-map-iframe');
+            let skeletonLoader = document.querySelector('.map-skeleton');
+
+            let observerOptions = {
+                root: null, // viewport
+                rootMargin: '0px',
+                threshold: 0.1 // Load when 10% of the map section is visible
+            };
+
+            let observer = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Hide the skeleton and show the map after 3 seconds
+                        setTimeout(function () {
+                            skeletonLoader.style.display = 'none';
+                            mapIframe.style.display = 'block';
+                        }, 3000); // 3 seconds delay for skeleton loading
+
+                        // Stop observing once the map is loaded
+                        observer.disconnect();
+                    }
+                });
+            }, observerOptions);
+
+            // Observe the footer map section
+            observer.observe(footerMapSection);
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>

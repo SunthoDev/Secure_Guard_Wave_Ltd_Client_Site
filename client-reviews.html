@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development Agency</title>
+    <link rel="stylesheet" href="client-reviews.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/my.png" alt="Company Logo"></a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="nav-container">
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#">Client Reviews</a></li>
+                    <li><a href="#products">Our Services</a></li>
+                    <li><a href="sendmessage.html">Contact Us</a></li>
+                    <li><a href="#footer-map">Our Location</a></li>
+                </ul>
+            </nav>
+            <a href="sendmessage.html"><button class="send-message-btn">Send Message</button></a>
+        </div>
+    </header>
+
+
+
+
+
+
+    <!-- Products Section -->
+    <div class="feedback-container">
+        <h1 class="feedback-title">Clients Feedback</h1>
+        <div class="loading-indicator">
+            <span class="dots">...</span>
+            <div class="underline"></div>
+        </div>
+    </div>
+
+
+
+    <div class="review-container">
+        <div class="review-box skeleton" id="review-1">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-1" style="display: none;">
+            <div class="review-header">
+                <img src="img/1.png" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Monir Hosen</h3>
+                    <p class="review-time">1 hour ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>ফাহিম ভাই, দীর্ঘক্ষণ ধরে আপনার বক্তব্যগুলো শুনলাম। প্রথম বিরক্তিকর মনে হলেও যতই সময় গড়াচ্ছিল ততই
+                    আকর্ষণটা বেড়ে যাচ্ছিল। ফ্রি বুটক্যাম্পে এতো এতো কন্টেন্ট...</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-2">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-2" style="display: none;">
+            <div class="review-header">
+                <img src="img/banner.jpg" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Rahim Uddin</h3>
+                    <p class="review-time">2 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>আপনার বক্তব্যগুলো দারুণ ছিল। আমি অনেক কিছু শিখলাম। ধন্যবাদ!</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-3">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-3" style="display: none;">
+            <div class="review-header">
+                <img src="img/banner2.jpg" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-4">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-4" style="display: none;">
+            <div class="review-header">
+                <img src="img/banner3.jpg" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+
+        <div class="review-box skeleton" id="review-5">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-5" style="display: none;">
+            <div class="review-header">
+                <img src="img/banner4.jpg" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-6">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-6" style="display: none;">
+            <div class="review-header">
+                <img src="img/banner5.jpg" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+
+
+        <div class="review-box skeleton" id="review-7">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-7" style="display: none;">
+            <div class="review-header">
+                <img src="img/banner6.jpg" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-8">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-8" style="display: none;">
+            <div class="review-header">
+                <img src="img/Biology Presentatio.jpg" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+
+        <div class="review-box skeleton" id="review-9">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-9" style="display: none;">
+            <div class="review-header">
+                <img src="img/Black Yellow Bold Bag Fashion Sale Banner.png" alt="Reviewer Profile"
+                    class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-10">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-10" style="display: none;">
+            <div class="review-header">
+                <img src="img/hero.png" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-11">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-11" style="display: none;">
+            <div class="review-header">
+                <img src="img/my.png" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+
+        <div class="review-box skeleton" id="review-12">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-name"></div>
+            <div class="skeleton skeleton-time"></div>
+            <div class="skeleton skeleton-content"></div>
+        </div>
+        <div class="review-box actual-content" id="content-12" style="display: none;">
+            <div class="review-header">
+                <img src="img/1.png" alt="Reviewer Profile" class="reviewer-image">
+                <div class="reviewer-info">
+                    <h3 class="reviewer-name">Md. Karim Uddin</h3>
+                    <p class="review-time">3 hours ago</p>
+                </div>
+            </div>
+            <div class="review-content">
+                <p>খুবই সুন্দর এবং শিক্ষণীয় ছিল আপনার বক্তৃতা। আশা করি আবারও শুনব!</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer" class="footer">
+        <div class="footer-content">
+            <!-- Company Logo and Tagline -->
+            <div class="footer-logo">
+                <img src="img/my.png" alt="Company Logo">
+                <p class="tagline">You know your business— we know data. Let’s bring it together by combining passion,
+                    innovation, and results-driven strategies.</p>
+                <!-- Social Media Icons -->
+                <div class="social-media">
+                    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/yourchannel" target="_blank" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Important Links -->
+            <div class="important-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="#footer">About Us</a></li>
+                    <li><a href="#products">Our Services</a></li>
+                    <li><a href="#footer">Privacy Policy</a></li>
+                    <li><a href="#footer">Terms & Conditions</a></li>
+                    <li><a href="sendmessage.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Get in Touch -->
+            <div class="get-in-touch">
+                <h3>Get in Touch</h3> <br>
+                <p><span class="address-icon"><i class="fas fa-map-marker-alt"></i></span> 27 Shaptak Square, Level-7,
+                    Holding-02, Road-27, Dhanmondi, Dhaka</p> <br>
+                <p><span class="map-icon"><i class="fas fa-map"></i></span> <a style="color: #5B2290;" class="linkcolor"
+                        href="https://www.google.com/maps?q=27+Shaptak+Square" target="_blank">View on Map</a></p> <br>
+                <p><span class="mail-icon"><i class="fas fa-envelope"></i></span> <a style="color: #5B2290;"
+                        class="linkcolor" href="mailto:hello@secureguardwave.com">hello@secureguardwave.com</a></p>
+            </div>
+            <!-- Embedded Map -->
+            <!-- Embedded Map -->
+            <div id="footer-map" class="footer-map">
+                <!-- Skeleton Loader for Map -->
+                <div class="map-skeleton">
+                    <!-- You can use a simple div with background or a loading animation -->
+                    <div class="skeleton-box"></div>
+                </div>
+
+                <!-- Actual Map (Initially hidden) -->
+                <iframe id="footer-map-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14606.984162952196!2d90.374941!3d23.756434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b92f4ee0202d%3A0x7480d2ba4746d2c2!2s27%20SHAPTAK%20SQUARE!5e0!3m2!1sen!2sus!4v1725871051786!5m2!1sen!2sus"
+                    style="border:0; display: none;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-copyright">
+            <p class="foop">&copy; <span id="current-year"></span> Secure Guard Wave Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+
+    <button id="back-to-top" aria-label="Back to Top">&#8679;</button>
+
+
+
+    <script>
+        const reviews = [
+            { id: 'review-1', contentId: 'content-1', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-2', contentId: 'content-2', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-3', contentId: 'content-3', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-4', contentId: 'content-4', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-5', contentId: 'content-5', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-6', contentId: 'content-6', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-7', contentId: 'content-7', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-8', contentId: 'content-8', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-9', contentId: 'content-9', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-10', contentId: 'content-10', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-11', contentId: 'content-11', delay: Math.random() * (7000 - 3000) + 3000 },
+            { id: 'review-12', contentId: 'content-12', delay: Math.random() * (7000 - 3000) + 3000 }
+        ];
+
+        reviews.forEach(review => {
+            setTimeout(function () {
+                document.querySelector(`.review-box.skeleton#${review.id}`).style.display = 'none';
+                document.querySelector(`.review-box.actual-content#${review.contentId}`).style.display = 'block';
+            }, review.delay);
+        });
+    </script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // const hamburger = document.querySelector('.hamburger');
+            // const navLinks = document.querySelector('.nav-links ul');
+            // const navContainer = document.querySelector('.nav-container');
+
+            // hamburger.addEventListener('click', function () {
+            //     navLinks.classList.toggle('active');
+            //     navContainer.classList.toggle('open'); // Add a class to indicate menu is open
+            // });
+
+            // document.addEventListener('click', function (event) {
+            //     if (!navContainer.contains(event.target) && !hamburger.contains(event.target)) {
+            //         navLinks.classList.remove('active');
+            //         navContainer.classList.remove('open'); // Remove class when clicking outside
+            //     }
+            // });
+
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links ul');
+            const navContainer = document.querySelector('.nav-container');
+            const barsIcon = hamburger.querySelector('.fa-bars');
+            const timesIcon = hamburger.querySelector('.fa-times');
+
+            // Initially hide the 'times' (cross) icon
+            timesIcon.style.display = 'none';
+
+            hamburger.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+                navContainer.classList.toggle('open'); // Toggle 'open' class
+
+                // Toggle icons based on 'open' class
+                if (navContainer.classList.contains('open')) {
+                    barsIcon.style.display = 'none'; // Hide bars icon
+                    timesIcon.style.display = 'block'; // Show cross icon
+                } else {
+                    barsIcon.style.display = 'block'; // Show bars icon
+                    timesIcon.style.display = 'none'; // Hide cross icon
+                }
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!navContainer.contains(event.target) && !hamburger.contains(event.target)) {
+                    navLinks.classList.remove('active');
+                    navContainer.classList.remove('open'); // Remove 'open' class when clicking outside
+
+                    // Reset to show bars icon when menu is closed
+                    barsIcon.style.display = 'block'; // Show bars icon
+                    timesIcon.style.display = 'none'; // Hide cross icon
+                }
+            });
+
+
+
+
+
+
+
+            // =============================================================
+
+            const backToTopButton = document.getElementById('back-to-top');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    backToTopButton.style.display = 'block'; // Show button when scrolled down
+                } else {
+                    backToTopButton.style.display = 'none'; // Hide button when at the top
+                }
+            });
+
+            backToTopButton.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth' // Smooth scroll to top
+                });
+            });
+        });
+
+
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Intersection Observer for the map
+            let footerMapSection = document.querySelector('.footer-map');
+            let mapIframe = document.getElementById('footer-map-iframe');
+            let skeletonLoader = document.querySelector('.map-skeleton');
+
+            let observerOptions = {
+                root: null, // viewport
+                rootMargin: '0px',
+                threshold: 0.1 // Load when 10% of the map section is visible
+            };
+
+            let observer = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Hide the skeleton and show the map after 3 seconds
+                        setTimeout(function () {
+                            skeletonLoader.style.display = 'none';
+                            mapIframe.style.display = 'block';
+                        }, 3000); // 3 seconds delay for skeleton loading
+
+                        // Stop observing once the map is loaded
+                        observer.disconnect();
+                    }
+                });
+            }, observerOptions);
+
+            // Observe the footer map section
+            observer.observe(footerMapSection);
+        });
+
+    </script>
+</body>
+
+</html>
